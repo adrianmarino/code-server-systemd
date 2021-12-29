@@ -1,0 +1,9 @@
+name: code-server
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pylint
+  - pip
+  - pip:
+    - optuna-dashboard
