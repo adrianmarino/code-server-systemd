@@ -5,9 +5,9 @@ Description=Visual Studio Code Server for user %u
 Type=oneshot
 RemainAfterExit=yes
 WorkingDirectory=%h/code-server
-ExecStart=%h/code-server/bin/start-code-server
-ExecStop=%h/code-server/bin/stop-code-server
+ExecStart=%h/code-server/bin/start
+ExecStop=%h/code-server/bin/stop
 TimeoutStartSec=0
 
 [Install]
-WantedBy=multi-user.target
+WantedBy=default.target
