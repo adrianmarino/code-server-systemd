@@ -2,12 +2,12 @@
 
 Install visual studio code server as systemd daemon under linux. This run with your regular linux user.
 
-# Requirements
+## Requirements
 
 * miniconda
 * vscode
 
-# Setup vscode
+## Setup vscode
 
 **Step 1**: Clone repo. 
 
